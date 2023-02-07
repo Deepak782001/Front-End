@@ -86,7 +86,7 @@
         </tr>
       </thead>
 
-      <thead>
+      <tbody>
         <tr>
           <td>Mintu</td>
           <td>7686</td>
@@ -102,7 +102,72 @@
           <td>435f</td>
           <td>Developer</td>
         </tr>
-      </thead>
+      </tbody>
     </table>
+
+    <h2>This is form in HTML</h2>
+
+    <form action="node.js">
+      <label for="Name">Enter your name</label>
+      <div><input type="text" name="myname" id="Name" /></div>
+      <div>Enter your email: <input type="email" name="myemail" /></div>
+      <div>Enter your number: <input type="number" name="myphonenumber" /></div>
+      <label for="Eligible">Check your eligibility:</label>
+      <div>
+        <input type="checkbox" name="eligibility" id="Eligible" />
+      </div>
+      <div>
+        Male: <input type="radio" name="Gender" />Female:
+        <input type="radio" name="Gender" />
+      </div>
+      <div>Data: <input type="date" name="Date of submission" /></div>
+      <div>
+        Write about yourself here:<br />
+        <textarea name="User's text" cols="30" rows="10"></textarea>
+      </div>
+      <label for="car">Car</label>
+      <div>
+        <select name="mycar" id="car">
+          <option value="germany">POLO</option>
+          <option value="Japan" selected>Innova</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="Submit" value="submit now" />
+      </div>
+      <div>
+        <input type="reset" value="reset now" />
+      </div>
+    </form>
+
+    <h2>This is inline and block elements</h2>
+    <p style="border: 1px solid yellow">paragraph is a block element</p>
+    <p style="border: 2px solid green">paragraph is a block element</p>
+    <span style="border: 2px solid red"> paragraph is a span tag</span>
+    <span> paragraph is a span tag</span>
+
+    <h1>This is ID's and Classes</h1>
+    <div id="stack" class="bgred">
+      This stack is id which can be used again:
+    </div>
+    <!-- . is for class and # is for Id-->
+    <div class="bgcolor"></div>
+    <div id="overflow"></div>
+
+    <div class="bgred bgwhite"></div>
+    <div class="bgred bgwhite"></div>
+    <div class="bgred bgwhite"></div>
+    <div class="bgred bgwhite"></div> 
+
+    <h2> HTML entities</h2>
+    <!-- &nbsp (non breaking space) - use for spacing  -->
+
+    <!-- &lt; stands for the <  sign. Just remember: lt == less than
+&gt; stands for the > Just remember: gt == greater than -->
+
+<p> hello world &lt;p&gt;</p>
+<p> hello &nbsp; world </p>
+
   </body>
 </html>
