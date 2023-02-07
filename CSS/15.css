@@ -1,0 +1,25 @@
+/* element selector*/
+
+h1{
+    border: 2px solid red;
+    color :yellow;
+}
+
+/* ID selector */
+
+
+#firstpara{
+    color:red;
+
+    /* Class selector */
+
+}
+.blueelement{
+    background-color: brown;
+}
+
+/* Group selector */
+
+span,footer{
+    background-color: grey;
+}
