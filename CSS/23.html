@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbars</title>
+    <style>
+      .navbars {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+      }
+      .navbars ul {
+        overflow: auto;
+      }
+      .navbars li {
+        float: left;
+        list-style: none;
+        margin: 13px 19px;
+        border: 2px solid white;
+        padding: 4px;
+      }
+      .navbars li a {
+        text-decoration: none;
+        color: aliceblue;
+        padding: 3px;
+      }
+      .navbars li a:hover {
+        color: pink;
+        background-color: green;
+      }
+      .in {
+        float: right;
+        padding: 15px 30px;
+      }
+      .navbars input {
+        border-radius: 12px;
+        width: 200px;
+        padding: 5px;
+        text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbars">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Contact us</a></li>
+        <div class="in">
+          <input type="text" name="myname" id="myname" placeholder="Search here" />
+        </div>
+      </ul>
+    </nav>
+  </body>
+</html>
